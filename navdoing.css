@@ -1,0 +1,97 @@
+body{
+    background-color: chocolate;
+    padding: 20px;
+}
+.navbar {
+    display: flex;
+    justify-content: center;
+    align-content: center; 
+}
+.navbar a{
+    color: yellow;
+    padding: 15px;
+    border: 1px solid;
+    border-radius: 20px;
+    background-color: thistle;
+    text-decoration: none;
+    margin-right: 20px;
+    box-shadow: 5px 5px 5px black;
+}
+
+.navbar a:hover{
+    background-color: rgb(250, 250, 244);
+    color: black;
+    font-weight: bold;
+}
+
+p{
+    text-align: center;
+    color: white;
+    font-size: 25px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+hr{
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.head{
+    background-color: aqua;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.head p{
+    color: black;
+    text-align: left;
+    font-size: 20px;
+}
+
+.head input{
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+.head select{
+    border-radius: 10px;
+    height: 30px;
+    width: 250px;
+    font-size: 15px;
+    padding-left: 10px;
+}
+
+img{
+    width: 90px;
+    height: 90px;
+    border-radius: 100px;
+    align-content: center;
+    justify-content: center;
+    display: flex;
+    background-color: wheat;
+}
+
+.img-center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button{
+    background-color: blueviolet;
+    padding: 10px;
+    border-radius: 20px;
+    color: white;
+    cursor: pointer;
+    width: 100px;
+    margin-top: 20px;
+}
+
+button:hover{
+    background-color: rgb(255, 255, 255);
+    color: rgb(250, 17, 180);
+    font-weight: bold;
+}
